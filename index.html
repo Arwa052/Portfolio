@@ -1,0 +1,446 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-1.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between">
+            <div class="logo">
+                <a href="/">A</a>
+            </div>
+            <div class="hamburger-btn outer-shadow hover-in-shadow" onclick="showNav()">
+              <span></span>
+            </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Navigation menu start -->
+    <nav class="nav-menu" id="nav-menu">
+      <div class="close-nav-menu outer-shadow hover-in-shadow" onclick="closeNav()">&times;</div>
+      <div class="nav-menu-inner">
+        <ul>
+          <li><a href="#" class="inner-shadow active">Home</a></li>
+          <li><a href="#about" class="outer-shadow hover-in-shadow">about</a></li>
+          <li><a href="#" class="outer-shadow hover-in-shadow">services</a></li>
+          <li><a href="#" class="outer-shadow hover-in-shadow">protfolio</a></li>
+          <li><a href="#" class="outer-shadow hover-in-shadow">testimonial</a></li>
+          <li><a href="#" class="outer-shadow hover-in-shadow">contact</a></li>
+        </ul>
+      </div>
+      <p class="copyright-text">&copy; It Next Journey</p>
+    </nav>
+    <!-- Navigation menu end -->
+
+    <!-- Home Section start -->
+    <section class="home-section section">
+      <div class="effect-wrap">
+        <div class="effect effect-1"></div>
+        <div class="effect effect-2">
+          <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="effect effect-3"></div>
+        <div class="effect effect-4"></div>
+        <div class="effect effect-5">
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row full-screen align-items-center">
+          <div class="home-text">
+            <p>Hello</p>
+            <h2>I'm Arwa Shahid</h2>
+            <h1>Web Designer & Developer</h1>
+            <a href="#" class="outer-shadow hover-in-shadow btn-1">Read More</a>
+          </div>
+          <div class="home-img">
+            <div class="img-box outer-shadow">
+              <img src="img/profile2.jpg" class="inner-shadow" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section end -->
+
+    <!-- About section start -->
+    <section class="about-section section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="main info">About me</h2>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box inner-shadow">
+                <img src="img/profile.jpg" class="outer-shadow" alt="">
+              </div>
+              <!-- social link start -->
+              <div class="social-links">
+                <a href="#" class="outer-shadow hover-in-shadow"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="outer-shadow hover-in-shadow"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="outer-shadow hover-in-shadow"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="outer-shadow hover-in-shadow"><i class="fa fa-linkedIn"></i></a>
+              </div>
+              <!-- social link end -->
+            </div>
+            <div class="about-info">
+              <p><span>Hi! My name is Arwa Shahid. I'm a web designner & developer</span>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+              </p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
+                essentially unchanged</p>
+                <div class="row">
+                  <a href="#" class="outer-shadow hover-in-shadow btn-1">Download CV</a>
+                  <!-- <a href="#" class="outer-shadow hover-in-shadow btn-1">Hire Me</a> -->
+                </div>
+            </div>
+          </div>
+          <!-- about tab start -->
+          <div class="row">
+            <div class="about-tabs">
+              <span class="tab-item inner-shadow active" data-target=".skills">skills</span>
+              <span class="tab-item" data-target=".experience">experience</span>
+              <span class="tab-item" data-target=".education">education</span>
+            </div>
+          </div>
+          <!-- about tab end -->
+          <!-- about skills start -->
+          <div class="row">
+            <div class="skills tab-content active">
+              <div class="row">
+                <!-- about skill item start -->
+                <div class="skill-item">
+                  <p>Html</p>
+                  <div class="progress inner-shadow">
+                    <div class="progress-bar" style="width: calc(80% - 14px)"><span>80%</span></div>
+                  </div>
+                </div>
+                <!-- about skill item end -->
+                <!-- about skill item start -->
+                <div class="skill-item">
+                  <p>JavaScript</p>
+                  <div class="progress inner-shadow">
+                    <div class="progress-bar" style="width: calc(60% - 14px)"><span>60%</span></div>
+                  </div>
+                </div>
+                <!-- about skill item end -->
+                <!-- about skill item start -->
+                <div class="skill-item">
+                  <p>Vue.js</p>
+                  <div class="progress inner-shadow">
+                    <div class="progress-bar" style="width: calc(50% - 14px)"><span>50%</span></div>
+                  </div>
+                </div>
+                <!-- about skill item end -->
+                <!-- about skill item start -->
+                <div class="skill-item">
+                  <p>React.js</p>
+                  <div class="progress inner-shadow">
+                    <div class="progress-bar" style="width: calc(30% - 14px)"><span>30%</span></div>
+                  </div>
+                </div>
+                <!-- about skill item end -->
+              </div>
+            </div>
+          </div>
+          <!-- about skills end -->
+          <!-- experience start -->
+          <div class="row">
+            <div class="experience tab-content">
+              <div class="timeline">
+                <div class="row">
+                  <!-- itemline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa fa-briefcase icon"></i>
+                      <span>April, 2020 - Present</span>
+                      <h3>full stack developer</h3>
+                      <h4>Company name, pakistan</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                  </div>
+                  <!-- itemline item end -->
+                  <!-- itemline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa fa-briefcase icon"></i>
+                      <span>April, 2020 - Present</span>
+                      <h3>full stack developer</h3>
+                      <h4>Company name, pakistan</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                  </div>
+                  <!-- itemline item end -->
+                  <!-- itemline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa fa-briefcase icon"></i>
+                      <span>April, 2020 - Present</span>
+                      <h3>full stack developer</h3>
+                      <h4>Company name, pakistan</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                  </div>
+                  <!-- itemline item end -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- experience end -->
+          <!-- education start -->
+           <div class="row">
+            <div class="education tab-content">
+              <div class="timeline">
+                <div class="row">
+                  <!-- itemline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa fa-briefcase icon"></i>
+                      <span>2018 - 2020</span>
+                      <h3>Masters in Computer Science</h3>
+                      <!-- <h4>Company name, pakistan</h4> -->
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                  </div>
+                  <!-- itemline item end -->
+                  <!-- itemline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa fa-briefcase icon"></i>
+                      <span>2015 - 2017</span>
+                      <h3>Bachelor in Art's</h3>
+                      <!-- <h4>Company name, pakistan</h4> -->
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                  </div>
+                  <!-- itemline item end -->
+                  <!-- itemline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa fa-briefcase icon"></i>
+                      <span>2013 - 2015</span>
+                      <h3>intermediate in Computer Science</h3>
+                      <!-- <h4>Company name, pakistan</h4> -->
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                  </div>
+                  <!-- itemline item end -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- education end -->
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- services section start -->
+    <div class="service-section section">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="services">What I Do</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fa fa-mobile"></i>
+              </div>
+              <h3>Responsive design</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fa fa-code"></i>
+              </div>
+              <h3>Web design</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fa fa-code"></i>
+              </div>
+              <h3>Clean Code</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+          </div>
+          <!-- service item end -->
+        </div>
+      </div>
+    </div>
+    <!-- services section end -->
+    <!-- protfolio section start -->
+
+    <!-- protfolio section end -->
+    <!-- testimonial section start -->
+    <div class="testimonial-section section">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="testimonial">Client Speaks</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="testimonial-box">
+            <div class="testimonial-slider outer-shadow">
+              <div class="testimonial-slider-container">
+                <!-- testimonial item start -->
+                <div class="testimonial-item active">
+                  <i class="fa fa-quote-left left"></i>
+                  <i class="fa fa-quote-right right"></i>
+                  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <img src="img/profile.jpg" class="img" alt="">
+                    <span>mr. white</span>
+                </div>
+                <!-- testimonial item end --> 
+                <!-- testimonial item start -->
+                <div class="testimonial-item">
+                  <i class="fa fa-quote-left left"></i>
+                  <i class="fa fa-quote-right right"></i>
+                  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <img src="img/profile.jpg" class="img" alt="">
+                    <span>John Smitt</span>
+                </div>
+                <!-- testimonial item end --> 
+                <!-- testimonial item start -->
+                <div class="testimonial-item">
+                  <i class="fa fa-quote-left left"></i>
+                  <i class="fa fa-quote-right right"></i>
+                  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <img src="img/profile.jpg" class="img" alt="">
+                    <span>Gamer Girl</span>
+                </div>
+                <!-- testimonial item end --> 
+              </div>
+            </div>
+            <div class="testimonial-slider-nav">
+              <span class="prev outer-shadow hover-in-shadow"><i class="fa fa-angle-left"></i></span>
+              <span class="next outer-shadow hover-in-shadow"><i class="fa fa-angle-right"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonial section end -->
+    <!-- contact section start -->
+    <div class="contact-section section">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="Contact">Get in Touch</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- service item start -->
+          <div class="contact-item">
+            <a class="contact-item-inner outer-shadow" target="_blank" 
+            href="https://www.linkedin.com/in/arwa-shahid-128960166/">
+              <i class="fa fa-linkedin"></i>
+              <span>LinkedIn</span>
+              <p>@Arwa-Shahid</p>
+            </a>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow">
+              <i class="fa fa-envelope"></i>
+              <span>Mail</span>
+              <p>arwashahid052@gmail.com</p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow">
+              <i class="fa fa-map-marker"></i>
+              <span>Address</span>
+              <p>Lahore, Pakistan</p>
+            </div>
+          </div>
+          <!-- service item end -->
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <form>
+              <div class="row">
+                <div class="w-50">
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input type="text" placeholder="Name" class="input-control">
+                  </div>
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input type="email" placeholder="Email" class="input-control">
+                  </div>
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input type="number" placeholder="Phone No" class="input-control">
+                  </div>
+                </div>
+                <div class="w-50">
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <textarea placeholder="Message" class="input-control"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="submit-btn">
+                    <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact section end -->
+
+    <!-- script start-->
+    <script src="main.js"></script>
+    <script>
+      function showNav(){
+        document.getElementById("nav-menu").classList.add("show")
+      }
+      function closeNav(){
+        document.getElementById("nav-menu").classList.remove("show")
+      }
+      
+    </script>
+    <!-- script end -->
+  </body>
+</html>

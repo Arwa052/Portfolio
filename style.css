@@ -195,6 +195,15 @@ img{
         transform: translateX(25px);
     }
 }
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-25px);
+    } 100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 .section-title{
     padding: 0 15px ;
     flex: 0 0 100%;
@@ -498,6 +507,7 @@ header{
 }
 .about-section .tab-content.active{
     display: block;
+    animation: fadeInTop .5s ease ;
 }
 .about-section .skills{
     padding: 0 0 40px;
@@ -846,3 +856,41 @@ header{
     margin-top: 25px;
     padding: 0 10px;
 }
+
+
+/* media Queries */
+@media screen and (max-width: 768px) {
+    .home-section .full-screen{
+        flex-direction: column-reverse;
+    }
+    .home-section .home-text, 
+    .home-section .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-section .home-text{
+        margin-top: 50px;
+    }
+    .home-section .home-text h2{
+        font-size: 40px
+    }
+    .about-section .skills .skill-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-section .about-info,
+    .about-section .about-img{
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+    .service-section .service-item{
+        flex: 0 0 100% !important;
+        max-width: 100%;
+    }    
+    .contact-section .contact-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 560px){}
